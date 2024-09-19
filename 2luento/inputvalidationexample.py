@@ -1,5 +1,6 @@
-# aja sovellus terminaalissa komennolla: 
-# python3 inputvalidationexample2.py
+
+# aja sovellus terminaalissa komennolla:
+# python3 inputvalidationexample.py
 
 
 #Funktio laskee suorakulmion pinta-alan

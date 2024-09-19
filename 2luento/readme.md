@@ -1,6 +1,9 @@
 ## Esimerkkien ajaminen omalla koneella
 
 1. Esimerkkien ajamiseen sinulla pitää olla asennettuna python
-2. Kun lataat hakemiston versiohallinnasta, aja ensin komento:
+2. Avaa terminaali esim. Visual Studio Code-sovellukseen ja varmista, että se on samassa hakemistossa kuin ohjelma jonka haluat ajaa.
+3. aja ohjelma:
 
-pip3 install
+python3 inputvalidationexample.py (tai mikä kooditiedoston nimi on)
+
+
