@@ -2,6 +2,9 @@ names = ['Matti', 'Minna', 'Iines', 'Joni', 'Mikko', 'Leena']
 
 name = "Alkuperäinen arvo"
 for i in range(len(names)):
+    #Tämä name muuttuja on sama kuin 3-rivillä määritelty
+    #eikä eri muuttuja kuten varjostus edellyttäisi. 
+    #Siten varjostusta EI tapahdu tässä.
     name = names[i]
     print(name)
 
