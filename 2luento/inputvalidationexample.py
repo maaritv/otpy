@@ -24,8 +24,8 @@ def calculate_area():
         ##Tässä kohdassa Python toimii eri tavoin kuin JavaScript, ja systemaattinen
         ## muuntaminen ei tuota toimivaa koodia.
         # If width or length cannot be converted to a number, raise an exception
-        #if width <= 0 or length <= 0:
-        #    raise ValueError("Syötettä ei voitu muuntaa numeroksi")
+        ##if width <= 0 or length <= 0:
+        ##    raise ValueError("Syötettä ei voitu muuntaa numeroksi")
         
         result = calculate_rectangle_area(width, length)
         print(f"Pinta-ala on: {result}")
