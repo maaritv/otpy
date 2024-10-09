@@ -12,6 +12,11 @@ from matplotlib import pyplot
 ## pip3 install PIL
 
 
+## Ei tarvitse osata käsitellä kuvia, mutta
+## tensorin ajatus ja miten luodaan numpyllä
+## tensori pitää osata.
+
+
 def process_convolution(img, kernel):
   result_img = img.copy()
   width, height, color = img.shape

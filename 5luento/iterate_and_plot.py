@@ -1,6 +1,8 @@
 import math
 import matplotlib.pyplot as plt
 
+## Tutustu iteroivaan tapaan etsiä x, kun y:n arvo
+## on annettu ja tiedetään ympyrän kaava.
 
 def draw_plot(x, y):
     plt.figure(figsize=(8, 6))  # Optional: Set the figure size

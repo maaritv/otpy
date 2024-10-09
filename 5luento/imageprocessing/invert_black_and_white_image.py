@@ -5,6 +5,9 @@ from matplotlib import pyplot
 import numpy as np
 
 
+## Tutustu miten käydään numpyllä läpi matriisi.
+## ei tarvitse osata itse tehdä vastaavaa kuvilla.
+
 def show_image(imageToShow):
   # summarize shape of the pixel array
   # display the array of pixels as an image
