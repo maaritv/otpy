@@ -1,3 +1,6 @@
+
+## TIEDOKSI! EI TARVITSE OPETELLA TEKEMÄÄN.
+
 # 1) Funktio saa parametrin, joka voi muuttua joka ajokerralla
 def process_data(data):
     print(f"Käsittelen dataa: {data}")

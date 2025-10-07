@@ -1,5 +1,8 @@
 from math import *
 
+
+## TIEDOKSI! EI TARVITSE OPETELLA TEKEMÄÄN.
+
 a = 34.22  # 4 merkitsevää numeroa, 2 desimaalia
 b = 91.76627773  #10 merkitsevää numeroa
 c = a * b

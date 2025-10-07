@@ -1,5 +1,9 @@
 from datetime import datetime
 
+
+## TIEDOKSI! EI TARVITSE OPETELLA TEKEMÄÄN.
+ 
+
 def create_hotel_booking(first_name, last_name, hotel_id):
     # Create a new booking object with the given details
     booking = {
