@@ -1,12 +1,11 @@
-names = ['Matti', 'Minna', 'Iines', 'Joni', 'Mikko', 'Leena']
+# global variable
+a = 3
 
-name = "Alkuperäinen arvo"
-for i in range(len(names)):
-    #Tämä name muuttuja on sama kuin 3-rivillä määritelty
-    #eikä eri muuttuja kuten varjostus edellyttäisi. 
-    #Siten varjostusta EI tapahdu tässä.
-    name = names[i]
-    print(name)
+def printA():
 
-# Tämä toimii, koska name-muuttuja säilyttää viimeisimmän arvon for-loopin jälkeen.
-print(f'Nimet loppuivat. Name muuttujan arvo nyt {name} ja i oli viimeksi {i}')
+    # local variable
+    a = 5
+    print(a)  # prints 5
+
+printA()
+print(a)  # prints 3

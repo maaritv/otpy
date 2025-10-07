@@ -1,5 +1,4 @@
-widthInput= "120"  #Leveys on teknisesti ottaen merkkijono, mutta se on muunnettavissa numeroksi.
-heightInput = 13
+
 
 #Testaa erilaisilla syötteillä.
 # python3 calculate_area.py
@@ -15,6 +14,9 @@ def calculate_rectangle_area(width, height):
     area = width * height
     return area
 
+
+widthInput= "120"  #Leveys on teknisesti ottaen merkkijono, mutta se on muunnettavissa numeroksi.
+heightInput = 13
 
 try:
     #Syötevalidointi (ei-tyhjä, numeerinen tietotyyppi)
