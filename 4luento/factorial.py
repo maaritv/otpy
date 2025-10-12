@@ -8,6 +8,14 @@ import math
 # 3 x 2 x 1
 
 
+
+## TIEDOKSI, ei tarvitse oppia tekemään: Tämä funktio 
+## (calculate_factorial) esimerkkinä kertoman 
+## laskemisesta ohjelmakoodissa.
+## voit laskea sen myös matematiikkakirjaston
+## factorial-funktiolla.
+
+
 def calculate_factorial(n):
   if n<0:
     raise ValueError("Factorial for negative value is not defined.")
@@ -18,9 +26,12 @@ def calculate_factorial(n):
   return factorial  #viimeisin arvo on oikea vastaus
 
 
-n = -4
+n = 3
 print(f"{n} palloa voidaan laittaa {calculate_factorial(n)} järjestykseen")
 
+
+##Kertoma voidaan laskea myös käyttäen siihen tarkoitettua funktiota.
+ 
 fact=math.factorial(n)
 
 print(f"{n} palloa voidaan laittaa {fact} järjestykseen")
