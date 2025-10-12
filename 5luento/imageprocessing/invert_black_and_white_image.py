@@ -4,9 +4,9 @@ from matplotlib import image
 from matplotlib import pyplot
 import numpy as np
 
-
+## Tämä ohjelmakoodi tiedoksi.
 ## Tutustu miten käydään numpyllä läpi matriisi.
-## ei tarvitse osata itse tehdä vastaavaa kuvilla.
+## ei tarvitse osata itse tehdä vastaavaa.
 
 def show_image(imageToShow):
   # summarize shape of the pixel array
