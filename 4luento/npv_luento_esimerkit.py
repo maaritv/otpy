@@ -22,12 +22,12 @@ def calculate_npv(C, r, n, initialInvestment):
         pv = C / (1 + r) ** t
         print(f"year: {t} PV of {C} is {pv}")
         npv = npv + pv
-    npv = npv - initialInvestment
+    npv = npv + initialInvestment
     return npv
 
 yearly_income = 200
 n=5 # Viisi vuotta (0, 1, 2, 3, 4)
-investmentExpense = 1000  #ANNETAAN TÄSSÄ POSITIIVISENA, KAAVA VÄHENTÄÄ TÄMÄN.
+investmentExpense = -1000  
 
 npv = calculate_npv(yearly_income, r, n, investmentExpense);
 print(f"Vakio {yearly_income} kokoisella vuositulolla investoinnin nykyarvo on {npv}")
