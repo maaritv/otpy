@@ -9,7 +9,7 @@ def calculate_npv_for_list(C, r):
     return npv
 
 
-cash_flows = [-1000, 100, 200, 500, 300]
+cash_flows = [-1000, 200, 200, 200, 200]
 r = 0.05 # 5%
 
 npv = calculate_npv_for_list(cash_flows, r)
