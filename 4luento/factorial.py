@@ -14,7 +14,7 @@ import math
 ## laskemisesta ohjelmakoodissa.
 ## voit laskea sen myös matematiikkakirjaston
 ## factorial-funktiolla.
-
+### 3 x 2 x 1
 
 def calculate_factorial(n):
   if n<0:
@@ -26,9 +26,12 @@ def calculate_factorial(n):
   return factorial  #viimeisin arvo on oikea vastaus
 
 
-n = 3
-print(f"{n} palloa voidaan laittaa {calculate_factorial(n)} järjestykseen")
+n = 10
 
+try:
+  print(f"{n} palloa voidaan laittaa {calculate_factorial(n)} järjestykseen")
+except:
+  print("Virhe")
 
 ##Kertoma voidaan laskea myös käyttäen siihen tarkoitettua funktiota.
  

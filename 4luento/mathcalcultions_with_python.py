@@ -87,11 +87,13 @@ toka = 2
 numbers = [100, 5, 10]
 
 sum_result = calculate_sum(eka, toka)
-listan_numeroiden_summa = calculate_sum_of_numbers(numbers)
-print(f"Summa on {listan_numeroiden_summa}")
 sum_result_str = str(sum_result)
 print("Sum_str_result tietotyyppi on " + str(type(sum_result_str)))
 print("Summa on " + sum_result_str + "\n\n")
+
+'''
+listan_numeroiden_summa = calculate_sum_of_numbers(numbers)
+print(f"Summa on {listan_numeroiden_summa}")
 
 diff_result = calculate_difference(8, 3)
 print("diff_result tietotyyppi on " + str(type(diff_result)))
@@ -117,3 +119,4 @@ jannite = 300
 
 teho = calculate_power(jannite, virta)
 print("Teho on " + str(teho))
+'''
