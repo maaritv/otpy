@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 def draw_plot(x, y):
     plt.figure(figsize=(8, 6))  # Optional: Set the figure size
     plt.plot(x, y, '-+', label='Suklaan hinnanvaihtelu')  # Plot the sine curve
-    plt.title('Suklaan kuukausittainen keskihinta / kilo vuoden aikana')
+    plt.title('Suklaan kuukausittainen (keskihinta / kilo) hintavaihtelu vuoden aikana')
     plt.xlabel('kuukausi')
     plt.ylabel('hinta (euroa)')
     plt.legend()  # Show legend

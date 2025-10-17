@@ -2,23 +2,37 @@
 # laskea keskiarvon kahdesta muuttujasta
 
 
+import numbers
+
+def checkNumber(param):
+  if (param is None or isinstance(param, numbers.Number)==False):
+    raise TypeError("Only numbers are allowed")
+
 def calculate_sum(param1, param2):
+  checkNumber(param1)
+  checkNumber(param2)
   summa = param1 + param2
   return summa
 
 
 def calculate_difference(param1, param2):
+  checkNumber(param1)
+  checkNumber(param2)
   diff = param1 - param2
   return diff
 
 
 def calculate_average(param1, param2):
+  checkNumber(param1)
+  checkNumber(param2)
   summa = calculate_sum(param1, param2)
   return summa / 2
 
 
 ## If numbers are equal returns 0
 def find_biggest_number(param1, param2):
+  checkNumber(param1)
+  checkNumber(param2)
   if param1 == param2:
     return 0
   if param1 > param2:
@@ -43,16 +57,16 @@ def calculate_circle_area(r):
 
 
 def calculate_rectange_area(width, height):
-  if (width is None or (str(width)).isnumeric() == False or width < 0):
-    raise ValueError("Leveyden pitää olla positiivinen numero")
-  if (height is None or (str(height)).isnumeric() == False or height < 0):
-    raise ValueError("Korkeuden pitää olla positiivinen numero")
+  checkNumber(width)
+  checkNumber(width)
   area = width * height
   return area
 
 
 ## P = UI
 def calculate_power(u, i):
+  checkNumber(u)
+  checkNumber(i)
   p = u * i
   return p
 

@@ -12,9 +12,8 @@ from matplotlib import pyplot
 ## pip3 install PIL
 
 
-## Ei tarvitse osata käsitellä kuvia, mutta
-## tensorin ajatus ja miten luodaan numpyllä
-## tensori pitää osata.
+## Ei tarvitse osata ohjelmoida konvoluutiota, mutta
+## tensorin ajatus pitää oppia.
 
 
 def process_convolution(img, kernel):
