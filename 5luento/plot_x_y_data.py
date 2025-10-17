@@ -2,6 +2,10 @@ import math
 import matplotlib.pyplot as plt
 
 
+# Opi määrittelemään x-lista numeroita ja y-lista numeroita 
+# annettuun tarkotukseen.
+
+
 # Harjoittele kuvaajien piirtämistä. Tutustu matplot-lib:n mahdollisuuksiin 
 # sen API:n kautta.
 # https://matplotlib.org/stable/tutorials/pyplot.html#sphx-glr-tutorials-pyplot-py

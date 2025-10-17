@@ -6,7 +6,8 @@ import numpy as np
 
 ## Tämä ohjelmakoodi tiedoksi.
 ## Tutustu miten käydään numpyllä läpi matriisi.
-## ei tarvitse osata itse tehdä vastaavaa.
+## ei tarvitse osata itse tehdä vastaavaa, mutta 
+## selittää, toiminta-ajatus.
 
 def show_image(imageToShow):
   # summarize shape of the pixel array

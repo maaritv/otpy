@@ -1,6 +1,8 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
+## Tämä ohjelmakoodi tiedoksi.
+
 ## Asenna: pip3 install matplotlib
 ## pip3 install numpy
 

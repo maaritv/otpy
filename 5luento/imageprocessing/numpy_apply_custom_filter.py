@@ -13,7 +13,7 @@ from matplotlib import pyplot
 
 
 ## Ei tarvitse osata ohjelmoida konvoluutiota, mutta
-## tensorin ajatus pitää oppia.
+## tensorin ajatus pitää oppia ymmärtämään.
 
 
 def process_convolution(img, kernel):
