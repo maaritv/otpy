@@ -14,27 +14,26 @@ def create_hotel_booking(first_name, last_name, hotel_id):
     }
     return booking
 
-# Koodin suoritus alkaa tästä
 
-# Pyydetään syöte käyttäjältä (käyttöliittymäkerros)
-first_name = input("Enter your first name: ")
-last_name = input("Enter your last name: ")
-hotel_id = input("Enter the hotel ID: ")
-
-##Syötteen validointi!
-## Koska tarkastukset voivat antaa poikkeuksen, pitää nämä rivit 
-## määritellä try – except -lohkon sisällä, muuten koodi “kaatuu” eli
-## päättyy hallitsemattomasti.
 
 try:
-    if not isinstance(first_name, str) or not first_name.strip(): 
+    # Koodin suoritus alkaa tästä
+    ## Koska tarkastukset voivat antaa poikkeuksen, pitää nämä rivit 
+    ## määritellä try – except -lohkon sisällä, muuten koodi “kaatuu” eli
+    ## päättyy hallitsemattomasti.
+    # Pyydetään syöte käyttäjältä (käyttöliittymäkerros)
+    first_name = input("Enter your first name: ")
+    ##Syötteen validointi!
+    if not isinstance(first_name, str) or not first_name.strip() or not first_name.isalpha():
         raise ValueError("First name must be a non-empty string.") 
 
-    if not isinstance(last_name, str) or not last_name.strip(): 
+    last_name = input("Enter your last name: ")
+    if not isinstance(last_name, str) or not last_name.strip() or not last_name.isalpha(): 
         raise ValueError("Last name must be a non-empty string.") 
 
     # Validate hotel_id to be an integer 
 
+    hotel_id = input("Enter the hotel ID: ")
     if not isinstance(int(hotel_id), int): 
         raise ValueError("Hotel ID must be an integer.")
 

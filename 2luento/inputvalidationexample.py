@@ -15,10 +15,10 @@ def calculate_area():
     # Get input values from user input
     try:
         width_input = input("Syötä leveys? ")
-        length_input = input("Syötä pituus? ")
         ##Tyyppimuunnos antaa poikkeuksen, jos muunnos ei onnistu
-        ##JavaScriptissä näin ei käy
+        ##JavaScriptissä näin ei käy        
         width = float(width_input)
+        length_input = input("Syötä pituus? ")
         length = float(length_input)
         
         ##Tässä kohdassa Python toimii eri tavoin kuin JavaScript, ja systemaattinen
