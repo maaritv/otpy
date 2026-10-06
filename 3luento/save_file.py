@@ -23,6 +23,7 @@ def file_exists(path):
     return os.path.exists(path)
 
 path_str=input(f"Anna polku")
+validate_not_empty(path_str)
 check_path(path_str)
 data=input("anna data, joka pitää kirjoittaa tiedostoon")
 validate_not_empty(data)
